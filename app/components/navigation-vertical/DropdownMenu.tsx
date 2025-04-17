@@ -54,44 +54,9 @@ const DropDownMenu = (/*{ session }: { session: Session }*/): JSX.Element => {
                 }
                 style={{ fontSize: "1.5rem" }}
             >
-                <div className="flex flex-col justify-center items-center w-full h-[calc(100vh-var(--navheight))] bg-color0">
-                    <div className="px-space2 flex-grow bg-color0">
+                <div className="flex flex-col justify-center items-center w-full h-[calc(100vh-var(--navheight))] bg-color3">
+                    <div className="px-space2 flex-grow bg-color3">
                         <MenuItems />
-                    </div>
-
-                    <div
-                        id="section2"
-                        className="py-space2 min-h-[50px] w-full bg-color5 flex flex-col justify-around items-center text-xs"
-                    >
-                        <p className="pb-space2 text-color2">
-                            Connect with our sales team
-                        </p>
-                        <ButtonLink
-                            text={"Get a live demo!"}
-                            link={"/"}
-                        ></ButtonLink>
-                    </div>
-
-                    <div
-                        id="section3"
-                        className="min-h-[100px] w-full bg-color0 text-color2"
-                    >
-                        <MenuItemLinkWithIcon
-                            href={"/pages/settings"}
-                            label={"Settings"}
-                            iconPath={settingsIcon}
-                        ></MenuItemLinkWithIcon>
-                        <MenuItemLinkWithIcon
-                            href={"/pages/support"}
-                            label={"Support"}
-                            iconPath={supportIcon}
-                        ></MenuItemLinkWithIcon>
-                        <MenuItemLinkWithIcon
-                            href={"/pages/logout"}
-                            label={"Logout"}
-                            iconPath={logoutIcon}
-                            customStyle="py-space2 bg-color23 text-color0"
-                        ></MenuItemLinkWithIcon>
                     </div>
                 </div>
             </div>

@@ -55,7 +55,7 @@ const DropDownMenuItemWithSubMenu = ({ children, menuItemName, customStyle="", s
             <div
                 className={
                     submenuVisible
-                        ? `flex flex-col justify-start items-start absolute pl-2 pr-2 bg-color1-transparent whitespace-nowrap w-fit ${customStyle}`
+                        ? `flex flex-col justify-start items-start absolute pl-2 pr-2 bg-color1-transparent whitespace-nowrap w-fit bg-color3 ${customStyle}`
                         : "hidden"
                 }
                 onClick={handleSubMenuClicked}

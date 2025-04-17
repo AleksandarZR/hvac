@@ -42,7 +42,7 @@ const Navigation = ({ session }: any): JSX.Element => {
             </div>
 
             {/* Mobile Navigation */}
-            <div className="lg:hidden flex flex-row justify-between items-center w-full max-w-full h-navheight fixed top-0 left-0 z-100 pt-4 pb-4 md:px-space15 sm:px-space22 bg-color0 border-b-2">
+            <div className="lg:hidden flex flex-row justify-between items-center w-full max-w-full h-navheight fixed top-0 left-0 z-100 pt-4 pb-4 md:px-space15 sm:px-space22 bg-color3 border-b-2">
                 <DropDownMenu /*session={session}*/ />
 
                 {/* Center the Logo */}

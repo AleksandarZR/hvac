@@ -1,26 +1,94 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+    --background: #ffffff;
+    --foreground: #ffffff;
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+    --color0: rgb(255, 255, 255);
+    --color0-transparent: rgba(255, 255, 255, 0.95);
+    --color1: rgb(0, 0, 0);
+    --color1-transparent: rgba(0, 0, 0, 0.9);
+    --color2: #49371b;
+    --color2-transparent: rgba(73, 55, 27, 0.85);
+    /* --color2-transparent: rgba(212, 175, 55, 0.75); */
+    --color3: rgb(41, 66, 107);
+    --color3-transparent: rgba(77, 77, 58, 0.75);
+    --color4: rgb(111, 111, 111);
+    --color4-transparent: rgba(111, 111, 111, 0.75);
+    --color5: rgb(222, 222, 222);
+    --color5-transparent: rgba(145, 145, 145, 0.75);
+    --color6: rgba(242, 179, 18, 1);
+    --color7: rgba(0, 255, 222, 1);
+    --color8: rgba(255, 0, 0, 1);
+    --color9: rgba(55, 195, 236, 1);
+    --color10: rgb(43, 76, 93);
+    --color11: rgb(4, 207, 52);
+    --color12: rgb(29, 31, 30);
+    --color15: rgb(0, 14, 27);
+
+    --color20: rgb(255, 255, 255);
+    --color20-transparent: rgba(255, 255, 255, 0.95);
+    --color21: rgb(240, 241, 243);
+    --color21-transparent: rgba(240, 241, 243, 0.9);
+    --color22: rgb(0, 0, 0);
+    --color22-transparent: rgba(0, 0, 0, 0.75);
+    --color23: rgb(22, 170, 174);
+    --color23-transparent: rgba(22, 170, 174, 0);
+
+    --navheight: 80px;
+    --navwidth: 240px;
+
+    --space1: 8px;
+    --space2: 16px;
+    --space3: 24px;
+    --space4: 32px;
+    --space5: 40px;
+    --space6: 48px;
+    --space7: 56px;
+    --space8: 64px;
+    --space9: 128px;
+    --space10: 192px;
+
+    --space11: 8px;
+    --space12: 16px;
+    --space13: 24px;
+    --space14: 32px;
+    --space15: 40px;
+    --space16: 48px;
+    --space17: 56px;
+    --space18: 64px;
+    --space19: 128px;
+    --space20: 192px;
+
+    --space21: 8px;
+    --space22: 16px;
+    --space23: 24px;
+    --space24: 32px;
+    --space25: 40px;
+    --space26: 48px;
+    --space27: 56px;
+    --space28: 64px;
+    --space29: 128px;
+    --space30: 192px;
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+    color: var(--foreground);
+    background: var(--background);
+    background: var(--color2-transparent);
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+
+    width: 100%;
+    height: 100vh;
+    user-select: none;
 }

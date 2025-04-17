@@ -47,7 +47,7 @@ const TextInput = React.forwardRef<HTMLInputElement, TextInputProps>(
                 onKeyDown={onKeyDown}
                 onBlur={onBlur}
                 placeholder={placeholder}
-                className={`text-input p-2 border rounded mt-1 text-color1 bg-secondary-color 
+                className={`text-input p-2 border rounded mt-1 text-color1 
               placeholder-gray-300 h-14 w-3/4 text-xl ${className}`}
                 disabled={disabled}
                 required={required}

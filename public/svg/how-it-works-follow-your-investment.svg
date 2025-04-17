@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fff;
+      }
+
+      .st1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-.16" y1="300.34" x2="299.84" y2=".34" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#37c1f1"/>
+      <stop offset="1" stop-color="#68bd45"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path class="st1" d="M15.94.39h283.96v283.6c0,9.05-7.35,16.4-16.4,16.4H-.11V16.43C-.11,7.58,7.08.39,15.94.39Z"/>
+    <g>
+      <rect class="st0" x="129.62" y="163.57" width="200" height="45" rx="3.34" ry="3.34" transform="translate(415.7 -43.55) rotate(90)"/>
+      <rect class="st0" x="78.92" y="188.57" width="150" height="45" rx="3.34" ry="3.34" transform="translate(364.99 57.15) rotate(90)"/>
+      <rect class="st0" x="28.22" y="213.57" width="100" height="45" rx="3.34" ry="3.34" transform="translate(314.29 157.85) rotate(90)"/>
+    </g>
+  </g>
+  <g>
+    <rect class="st0" x="129.37" y="86.02" width="38.43" height="11.15" transform="translate(170.42 -81.59) rotate(65.53)"/>
+    <g>
+      <rect class="st0" x="213.72" y="22.06" width="38.43" height="11.15" transform="translate(24.49 -79.95) rotate(20.53)"/>
+      <rect class="st0" x="221.71" y="39.61" width="38.43" height="11.15" transform="translate(114.1 254.96) rotate(-69.47)"/>
+    </g>
+    <rect class="st0" x="44.7" y="120.97" width="120" height="11.15" transform="translate(-43.01 54.73) rotate(-24.47)"/>
+    <rect class="st0" x="132.81" y="50.91" width="120" height="11.15" transform="translate(-6.08 84.93) rotate(-24.47)"/>
+  </g>
+</svg>

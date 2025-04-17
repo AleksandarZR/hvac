@@ -10,7 +10,7 @@ import LoginForm from "@/app/components/common/LoginForm";
 export default function Home() {
     useEffect(() => {}, []);
 
-    return (
+    return ( 
         <>
             <Image
                 id='background'
